@@ -4,3 +4,6 @@ from . import views
 
 def index(request):
     return HttpResponse("Hello")
+
+def index(request):
+    return HttpResponse("sosi")
