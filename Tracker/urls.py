@@ -1,9 +1,7 @@
 from django.urls import path
-from django.http import HttpResponse
+
 from . import views
 
-def index(request):
-    return HttpResponse("Hello")
-
-def index(request):
-    return HttpResponse("sosi")
+urlpatterns = [
+    path("add/", views.add, name = "add")
+]
